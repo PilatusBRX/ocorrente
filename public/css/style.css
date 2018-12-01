@@ -1,0 +1,317 @@
+/*----- login/register page---*/
+body#app{
+    background: #141a21;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+    #app .light-blue{
+        /*--height: 1000px;--*/
+        background: #1976d2;
+        margin-top: -28px;
+    }
+    #app .dark-blue .thumb img{
+        width: 250px;
+        height: 250px;
+        margin-top: -20px;
+    }
+
+    #app .dark-blue .text{
+        padding: 10px 60px;
+        width: 90%;
+
+    }
+    #app .dark-blue .text p{
+        color: #c0c0c0;
+    }
+    #app .dark-blue .text h2{
+        color: #b0b2b5;
+        font-size: 44px;
+    }
+    #app .dark-blue .text h3{
+        color: #c0c0c0;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    #app .dark-blue .text .btn{
+        margin-top: 40px;
+    }
+
+    #app .dark-blue nav{
+        padding: 10px 40px;
+        margin-top: 250px;
+    }
+    #app .dark-blue nav a{
+        padding: 0 20px;
+        color: #c0c0c0;
+    }
+
+    #app .navbar-laravel{
+        display: none;
+    }
+
+    #app .navbar-first{
+        display: block;
+    }
+    #app .navbar-last{
+        display: none;
+    }
+
+    #app span{
+        color: #fff;
+    }
+
+
+.title{
+    text-align: center;
+     margin-top: 50px;
+
+}
+.add-button{
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.create-section{
+    margin-top: 120px;
+    margin-bottom: 220px;
+}
+.btn-logout{
+background: transparent;
+border: none;
+cursor: pointer;
+color: #fff;
+}
+.btn-logout:hover{
+background: transparent;
+border: none;
+cursor: pointer;
+color: #fff;
+}
+
+.btn-logout-mobile{
+    background: #1878BD;
+}
+.btn-logout-mobile:hover{
+    background: #01579b;
+}
+
+.sidenav {
+background: #e91566;
+}
+
+.sidenav li a{
+    color: #fff;
+}
+
+.sidenav .btn-logout{
+
+background: #444;
+border: none;
+cursor: pointer;
+color: #fff;
+}
+.sidenav .btn-logout:hover{
+background: #444;
+border: none;
+cursor: pointer;
+color: #fff;
+}
+.show-section{
+    margin: 100px auto;
+}
+.show-section h4,
+.show-section p{
+    color: #444;
+}
+.show-section b,
+.show-section i{
+    color: #01579b;
+}
+
+.pages{
+    margin-bottom: -80px;
+}
+
+.pagination .active a{
+    background: #03a9f4;
+}
+.pagination .active a{
+    transition: all linear .5s;
+}
+.pagination a:hover{
+    background: #03a9f4;
+    color: #fff;
+}
+
+.create{
+    margin-bottom: 170px;
+}
+
+.btn-link{
+    color: #fff;
+}
+
+.section-register{
+    margin: auto;
+    margin-top: 100px;
+}
+
+.section-register .card{
+    background: #1C76D2;
+
+}
+
+
+.section-register .card h3{
+    color: #fff;
+    text-align: center;
+}
+
+@media(min-width:  960px){
+    .section-register .card .card-body form{
+        margin-top: -250px;
+        padding-bottom: 100px
+
+    }
+
+
+    #app .card-body{
+        margin-top: 300px;
+        color: #fff;
+    }
+    .card-body  h2.light-blue-text{
+        margin-top: -70px;
+        margin-bottom: 70px;
+    }
+
+}
+
+
+@media(max-width:  959px){
+    #app .dark-blue .thumb img{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+
+    }
+    .form-group label{
+        display: none;
+    }
+    .form-check-label{
+        display: block;
+        color: #fff;
+    }
+
+    .section-register .card-body label{
+        color: #fff!important;
+    }
+
+    #app .card-body{
+        color: #fff;
+    }
+
+
+    #app .dark-blue .text{
+        margin-top: -50px;
+    }
+
+    #app .navbar-laravel{
+        display: block;
+    }
+
+    #app .dark-blue .text .btn{
+        margin-top: -5px;
+    }
+
+
+    #app .dark-blue .text h2{
+        font-size: 20.5px;
+        font-weight: bold;
+    }
+
+    #app .dark-blue .text h3{
+        font-size: 15px;
+
+    }
+    #app .dark-blue .text p{
+            display: none;
+    }
+
+    #app .light-blue{
+            margin-top: 10px;
+            background: #141a21;
+            padding: 0 0 20px 0;
+    }
+
+
+    #app .navbar-laravel{
+        display: block;
+        background: #fff;
+
+    }
+
+    #app .navbar-laravel .nav-link{
+        color: #444;
+    }
+    #app .navbar-first{
+        display: none;
+    }
+    #app .navbar-last{
+        display: block;
+        padding: 20px;
+    }
+        #app .navbar-last a{
+            color: #fff;
+            padding: 0 20px;
+        }
+
+    body#app{
+        background: #141a21;
+        overflow-x: visible;
+        overflow-y: visible;
+    }
+
+    #app .dark-blue .text{
+
+        padding: 1px 5px;
+    }
+
+    .card-body  h2.light-blue-text{
+        line-height: 28px;
+        font-size: 22px;
+        margin-top: -24px;
+        margin-bottom: 20px;
+
+    }
+
+
+    #app .dark-blue nav{
+        padding: 5px 5px;
+        margin-top: 5px;
+    }
+    #app .dark-blue nav a{
+        padding: 0 20px;
+        color: #c0c0c0;
+    }
+
+    #app .btn-first{
+        display: none;
+    }
+    #app .btn-second{
+        display: block;
+        margin-top: 16px;
+    }
+
+     label{
+        color: #141a21!important;
+    }
+
+    .section-register .card{
+        margin-top: -80px;
+    }
+
+}/*-----fim------*/
